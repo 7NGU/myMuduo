@@ -34,7 +34,7 @@ public:
     int size_;
 };
 
-class logger
+class Logger
 {
     public:
     enum LogLevel
