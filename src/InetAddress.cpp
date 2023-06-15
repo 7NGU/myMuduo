@@ -34,6 +34,7 @@ uint16_t InetAddress::toPort() const{
     return ::ntohs(addr_.sin_port);
 }
 
+#if 0
 
 #include <iostream>
 int main()
@@ -43,3 +44,4 @@ int main()
    
     return 0;
 }
+#endif
